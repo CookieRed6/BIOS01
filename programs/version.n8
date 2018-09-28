@@ -1,4 +1,4 @@
 neko8 cart
 __lua__
-print("neko8 " .. nver())
+print("BIOS01 " .. nver())
 __end__
