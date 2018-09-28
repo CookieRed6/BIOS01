@@ -65,7 +65,7 @@ function love.load(arg)
 
 	log.info("neko 8 " .. config.version.string)
 
-	love.window.setTitle("neko 8 " .. config.version.string)
+	love.window.setTitle("BIOS01 " .. config.version.string)
 	love.window.setDisplaySleepEnabled(false)
 	neko.init()
 end
@@ -240,17 +240,17 @@ function love.keypressed(
 				editors.open()
 			end
 		elseif neko.cart == nil and editors.opened then
-			if key == "f1" then
+			if key == "1" then
 				editors.openEditor(1)
-			elseif key == "f2" then
+			elseif key == "2" then
 				editors.openEditor(2)
-			elseif key == "f3" then
+			elseif key == "3" then
 				editors.openEditor(3)
-			elseif key == "f4" then
+			elseif key == "4" then
 				editors.openEditor(4)
-			elseif key == "f5" then
+			elseif key == "5" then
 				editors.openEditor(5)
-			elseif key == "f6" then
+			elseif key == "6" then
 				editors.openEditor(6)
 			else
 				handled = false
