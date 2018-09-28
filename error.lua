@@ -43,8 +43,8 @@ function love.errhand(msg)
 
 	local err = {}
 
-	table.insert(err, "Ooops, we have a bad news...\n" ..
-					  "Please, send this error to @egordorichev.\n" ..
+	table.insert(err, "There has been an error here...\n" ..
+					  "Submit this error to Scycor.\n" ..
 					  "It is in your clipboard now.\n")
 	table.insert(err, msg)
 
@@ -84,7 +84,7 @@ function love.errhand(msg)
 				return
 			elseif e == "touchpressed" then
 				local buttons = { "OK", "Cancel" }
-				local pressed = love.window.showMessageBox("Quit neko8?", "", buttons)
+				local pressed = love.window.showMessageBox("Quit BIOS01?", "", buttons)
 
 				if pressed == 1 then
 					return
