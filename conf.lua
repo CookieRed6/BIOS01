@@ -134,11 +134,11 @@ function love.conf(t)
 	t.window.width = config.window.width
 	t.window.height = config.window.height
 	t.window.resizable = true
-	t.window.title = string.format("neko8 %s", config.version.string)
+	t.window.title = string.format("BIOS01 %s", config.version.string)
 	t.console = true
 	t.window.minwidth = config.canvas.width
 	t.window.minheight = config.canvas.height
-	t.identity = "neko8"
+	t.identity = "BIOS01"
 	t.externalstorage = true
 
 	return t
