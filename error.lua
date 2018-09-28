@@ -43,8 +43,8 @@ function love.errhand(msg)
 
 	local err = {}
 
-	table.insert(err, "Ooops, we have a bad news...\n" ..
-					  "Please, send this error to @egordorichev.\n" ..
+	table.insert(err, "BOIS01 has encountered an error.\n" ..
+					  "Please submit this to the error logs.\n" ..
 					  "It is in your clipboard now.\n")
 	table.insert(err, msg)
 
